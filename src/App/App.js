@@ -77,7 +77,8 @@ const App = () => {
 					showBadge={false}>
 					<div
 						ref={ref}
-						className='app'
+						className='app abc'
+						
 						style={{
 							backgroundColor: fullScreenStatus && 'var(--bs-body-bg)',
 							zIndex: fullScreenStatus && 1,
